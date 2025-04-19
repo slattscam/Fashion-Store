@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion Store</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div id="toast-notification" class="toast-notification">
+        <div class="toast-content">
+          <span class="toast-message"></span>
+        </div>
+    </div>
+    <div class="header">
+        <div class="logo">
+            <a href="index.html">
+                <img src="images/Flux_Dev_On_a_stark_white_background_a_stylized_graffiti_tag_i_1.jpg" alt="Logo">
+            </a>
+        </div>
+
+        <div class="nav-container">
+            <div class="nav-item">
+                <a href="profile.html" class="nav-icon">
+                    <img src="https://static.tildacdn.com/tild3161-6166-4863-b336-376436333631/Group_1948757779.svg" alt="Profile">
+                </a>
+            </div>
+
+            <div class="nav-item">
+                <a href="shoppingCard.html" class="nav-icon">
+                    <img src="https://static.tildacdn.com/tild6235-6530-4166-b535-646432303264/shopping-bag-_2__1.svg" alt="shopping-card">
+                </a>
+            </div>
+
+            <div class="nav-item">
+                <a href="FAQ.html" class="nav-icon">
+                    <img src="images/free-icon-question-3106703.png" alt="FAQ">
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="background-image">
+        <img src="https://static.tildacdn.com/tild3930-3463-4761-a532-343036313335/banner_6.jpg" alt="Background">
+    </div>
+
+    <div class="categories">
+        <div class="header-categories-text">AMIRI</div>
+        <div class="products">
+            <button style="border: none; background-color: #fff;" class="product-btn" data-product="1">
+                <div class="card">
+                    <img src="https://cdn-images.farfetch-contents.com/28/38/98/61/28389861_57818210_480.jpg"  alt="clothes" class="card-img">  
+                    <div class="card-info">
+                        <h4 class="card-brand">AMIRI</h4>
+                        <p class="card-model">Starburst baseball cap</p>
+                        <p class="card-price">$390</p>
+                    </div>
+                </div>
+            </button>
+
+            <button style="border: none; background-color: #fff;" class="product-btn" data-product="2" >
+                <div class="card">
+                    <img src="https://cdn-images.farfetch-contents.com/28/55/01/62/28550162_57955151_480.jpg"  alt="clothes" class="card-img">  
+                    <div class="card-info">
+                        <h4 class="card-brand">AMIRI</h4>
+                        <p class="card-model">MX1 Bouclé jeans</p>
+                        <p class="card-price">$1,090</p>
+                    </div>
+                </div>
+            </button>
+
+            <button style="border: none; background-color: #fff;" class="product-btn" data-product="3">
+                <div class="card">
+                    <img src="https://cdn-images.farfetch-contents.com/28/38/98/51/28389851_57816341_480.jpg"  alt="clothes" class="card-img">  
+                    <div class="card-info">
+                        <h4 class="card-brand">AMIRI</h4>
+                        <p class="card-model">Pacific sneakers</p>
+                        <p class="card-price">$418</p>
+                    </div>
+                </div>
+            </button>
+
+            <button style="border: none; background-color: #fff;" class="product-btn" data-product="4">
+                <div class="card">
+                    <img src="https://cdn-images.farfetch-contents.com/23/26/65/30/23266530_54578996_480.jpg"  alt="clothes" class="card-img">  
+                    <div class="card-info">
+                        <h4 class="card-brand">AMIRI</h4>
+                        <p class="card-model">Arts District belt bag</p>
+                        <p class="card-price">$590</p>
+                    </div>
+                </div>
+            </button>
+
+            <button style="border: none; background-color: #fff;" class="product-btn" data-product="5">
+                <div class="card">
+                    <img src="https://cdn-images.farfetch-contents.com/28/21/67/99/28216799_57690969_480.jpg"  alt="clothes" class="card-img">  
+                    <div class="card-info">
+                        <h4 class="card-brand">AMIRI</h4>
+                        <p class="card-model">MA-1 sneakers</p>
+                        <p class="card-price">$553</p>
+                    </div>
+                </div>
+            </button>
+
+            <button style="border: none; background-color: #fff;" class="product-btn" data-product="6">
+                <div class="card">
+                    <img src="https://cdn-images.farfetch-contents.com/25/56/45/05/25564505_57210408_480.jpg"  alt="clothes" class="card-img">  
+                    <div class="card-info">
+                        <h4 class="card-brand">AMIRI</h4>
+                        <p class="card-model">MA-1 sneakers</p>
+                        <p class="card-price">$670</p>
+                    </div>
+                </div>
+            </button>
+
+            <button style="border: none; background-color: #fff;" class="product-btn" data-product="7">
+                <div class="card">
+                    <img src="https://cdn-images.farfetch-contents.com/24/76/25/01/24762501_54912610_480.jpg"  alt="clothes" class="card-img">  
+                    <div class="card-info">
+                        <h4 class="card-brand">AMIRI</h4>
+                        <p class="card-model">MA-1 sneakers</p>
+                        <p class="card-price">$692</p>
+                    </div>
+                </div>
+            </button>  
+
+            <button style="border: none; background-color: #fff;" class="product-btn" data-product="8">
+                <div class="card">
+                    <img src="https://cdn-images.farfetch-contents.com/24/31/59/05/24315905_54381182_480.jpg"  alt="clothes" class="card-img">  
+                    <div class="card-info">
+                        <h4 class="card-brand">AMIRI</h4>
+                        <p class="card-model">MX1 skinny jeans</p>
+                        <p class="card-price">$1,090</p>
+                    </div>
+                </div>
+            </button>
+        </div>
+    </div>
+
+    <div id="modal-1" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <p class="title">Product Details</p>
+                <button class="close-btn">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="product-details">
+                    <img src="https://cdn-images.farfetch-contents.com/28/38/98/61/28389861_57818210_480.jpg" alt="AMIRI Starburst baseball cap" class="product-image">
+                    <div class="product-info">
+                        <h1 class="product-title">Starburst baseball cap</h1>
+                        <p class="product-brand">AMIRI</p>
+                        <p class="product-price">$390</p>
+                        <div class="product-description">
+                            <p>The AMIRI Starburst baseball cap is crafted from premium cotton twill and features an embroidered starburst logo at the front. The adjustable strap at the back ensures a perfect fit.</p>
+                            <p>• Premium cotton twill construction<br>
+                            • Embroidered starburst logo<br>
+                            • Adjustable strap back<br>
+                            • Curved peak<br>
+                            • 100% cotton</p>
+                        </div>
+                        <div class="size-selector">
+                            <p style="font-size: 20px; margin-bottom: 10px;">Select Size</p>
+                            <div class="size-options">
+                                <button class="size-btn selected">One Size</button>
+                            </div>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Product 2 Modal -->
+    <div id="modal-2" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <p class="title">Product Details</p>
+                <button class="close-btn">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="product-details">
+                    <img src="https://cdn-images.farfetch-contents.com/28/55/01/62/28550162_57955151_480.jpg" alt="AMIRI MX1 Bouclé jeans" class="product-image">
+                    <div class="product-info">
+                        <h1 class="product-title">MX1 Bouclé jeans</h1>
+                        <p class="product-brand">AMIRI</p>
+                        <p class="product-price">$1,090</p>
+                        <div class="product-description">
+                            <p>These AMIRI jeans are crafted from bouclé denim for a textured finish. They feature a straight-leg fit, five-pocket styling, and signature MX1 distressing at the knees.</p>
+                            <p>• Straight-leg fit<br>
+                            • Mid-rise waist<br>
+                            • Zip fly with button fastening<br>
+                            • Five-pocket styling<br>
+                            • MX1 distressing at knees<br>
+                            • 98% cotton, 2% elastane</p>
+                        </div>
+                        <div class="size-selector">
+                            <p style="font-size: 20px; margin-bottom: 10px;">Select Size</p>
+                            <div class="size-options">
+                                <button class="size-btn">28</button>
+                                <button class="size-btn">30</button>
+                                <button class="size-btn selected">32</button>
+                                <button class="size-btn">34</button>
+                                <button class="size-btn">36</button>
+                            </div>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Product 3 Modal -->
+    <div id="modal-3" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <p class="title">Product Details</p>
+                <button class="close-btn">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="product-details">
+                    <img src="https://cdn-images.farfetch-contents.com/28/38/98/51/28389851_57816341_480.jpg" alt="AMIRI Pacific sneakers" class="product-image">
+                    <div class="product-info">
+                        <h1 class="product-title">Pacific sneakers</h1>
+                        <p class="product-brand">AMIRI</p>
+                        <p class="product-price">$418</p>
+                        <div class="product-description">
+                            <p>The AMIRI Pacific sneakers feature a low-top silhouette with a canvas upper and rubber sole. The design includes signature branding details and a comfortable cushioned insole.</p>
+                            <p>• Canvas upper<br>
+                            • Rubber sole<br>
+                            • Low-top silhouette<br>
+                            • Cushioned insole<br>
+                            • Signature branding<br>
+                            • Lace-up closure</p>
+                        </div>
+                        <div class="size-selector">
+                            <p style="font-size: 20px; margin-bottom: 10px;">Select Size</p>
+                            <div class="size-options">
+                                <button class="size-btn">US 7</button>
+                                <button class="size-btn">US 8</button>
+                                <button class="size-btn selected">US 9</button>
+                                <button class="size-btn">US 10</button>
+                                <button class="size-btn">US 11</button>
+                            </div>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Product 4 Modal -->
+    <div id="modal-4" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <p class="title">Product Details</p>
+                <button class="close-btn">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="product-details">
+                    <img src="https://cdn-images.farfetch-contents.com/23/26/65/30/23266530_54578996_480.jpg" alt="AMIRI Arts District belt bag" class="product-image">
+                    <div class="product-info">
+                        <h1 class="product-title">Arts District belt bag</h1>
+                        <p class="product-brand">AMIRI</p>
+                        <p class="product-price">$590</p>
+                        <div class="product-description">
+                            <p>The AMIRI Arts District belt bag is crafted from premium leather with a compact silhouette. It features an adjustable belt strap, front zip pocket, and signature hardware.</p>
+                            <p>• Premium leather construction<br>
+                            • Adjustable belt strap<br>
+                            • Front zip pocket<br>
+                            • Compact silhouette<br>
+                            • Signature hardware<br>
+                            • 100% leather</p>
+                        </div>
+                        <div class="size-selector">
+                            <p style="font-size: 20px; margin-bottom: 10px;">Select Size</p>
+                            <div class="size-options">
+                                <button class="size-btn selected">One Size</button>
+                            </div>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Product 5 Modal -->
+    <div id="modal-5" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <p class="title">Product Details</p>
+                <button class="close-btn">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="product-details">
+                    <img src="https://cdn-images.farfetch-contents.com/28/21/67/99/28216799_57690969_480.jpg" alt="AMIRI MA-1 sneakers" class="product-image">
+                    <div class="product-info">
+                        <h1 class="product-title">MA-1 sneakers</h1>
+                        <p class="product-brand">AMIRI</p>
+                        <p class="product-price">$553</p>
+                        <div class="product-description">
+                            <p>Inspired by the classic MA-1 bomber jacket, these AMIRI sneakers feature a leather and nylon upper with a padded collar for comfort. The rubber sole provides traction and durability.</p>
+                            <p>• Leather and nylon upper<br>
+                            • Padded collar<br>
+                            • Rubber sole<br>
+                            • Lace-up closure<br>
+                            • Signature branding<br>
+                            • Cushioned insole</p>
+                        </div>
+                        <div class="size-selector">
+                            <p style="font-size: 20px; margin-bottom: 10px;">Select Size</p>
+                            <div class="size-options">
+                                <button class="size-btn">US 7</button>
+                                <button class="size-btn">US 8</button>
+                                <button class="size-btn selected">US 9</button>
+                                <button class="size-btn">US 10</button>
+                                <button class="size-btn">US 11</button>
+                            </div>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Product 6 Modal -->
+    <div id="modal-6" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <p class="title">Product Details</p>
+                <button class="close-btn">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="product-details">
+                    <img src="https://cdn-images.farfetch-contents.com/25/56/45/05/25564505_57210408_480.jpg" alt="AMIRI MA-1 sneakers" class="product-image">
+                    <div class="product-info">
+                        <h1 class="product-title">MA-1 sneakers</h1>
+                        <p class="product-brand">AMIRI</p>
+                        <p class="product-price">$670</p>
+                        <div class="product-description">
+                            <p>This version of the AMIRI MA-1 sneakers features a premium leather upper with contrast stitching and signature branding. The chunky rubber sole provides a modern silhouette.</p>
+                            <p>• Premium leather upper<br>
+                            • Contrast stitching<br>
+                            • Chunky rubber sole<br>
+                            • Lace-up closure<br>
+                            • Signature branding<br>
+                            • Cushioned insole</p>
+                        </div>
+                        <div class="size-selector">
+                            <p style="font-size: 20px; margin-bottom: 10px;">Select Size</p>
+                            <div class="size-options">
+                                <button class="size-btn">US 7</button>
+                                <button class="size-btn">US 8</button>
+                                <button class="size-btn selected">US 9</button>
+                                <button class="size-btn">US 10</button>
+                                <button class="size-btn">US 11</button>
+                            </div>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Product 7 Modal -->
+    <div id="modal-7" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <p class="title">Product Details</p>
+                <button class="close-btn">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="product-details">
+                    <img src="https://cdn-images.farfetch-contents.com/24/76/25/01/24762501_54912610_480.jpg" alt="AMIRI MA-1 sneakers" class="product-image">
+                    <div class="product-info">
+                        <h1 class="product-title">MA-1 sneakers</h1>
+                        <p class="product-brand">AMIRI</p>
+                        <p class="product-price">$692</p>
+                        <div class="product-description">
+                            <p>These AMIRI MA-1 sneakers feature a distressed leather upper with a vintage-inspired look. The design includes a padded collar and chunky rubber sole for comfort and style.</p>
+                            <p>• Distressed leather upper<br>
+                            • Vintage-inspired look<br>
+                            • Padded collar<br>
+                            • Chunky rubber sole<br>
+                            • Lace-up closure<br>
+                            • Cushioned insole</p>
+                        </div>
+                        <div class="size-selector">
+                            <p style="font-size: 20px; margin-bottom: 10px;">Select Size</p>
+                            <div class="size-options">
+                                <button class="size-btn">US 7</button>
+                                <button class="size-btn">US 8</button>
+                                <button class="size-btn selected">US 9</button>
+                                <button class="size-btn">US 10</button>
+                                <button class="size-btn">US 11</button>
+                            </div>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Product 8 Modal -->
+    <div id="modal-8" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <p class="title">Product Details</p>
+                <button class="close-btn">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="product-details">
+                    <img src="https://cdn-images.farfetch-contents.com/24/31/59/05/24315905_54381182_480.jpg" alt="AMIRI MX1 skinny jeans" class="product-image">
+                    <div class="product-info">
+                        <h1 class="product-title">MX1 skinny jeans</h1>
+                        <p class="product-brand">AMIRI</p>
+                        <p class="product-price">$1,090</p>
+                        <div class="product-description">
+                            <p>The AMIRI MX1 skinny jeans are crafted from premium denim with a slim-fit silhouette. They feature the signature MX1 distressing, five-pocket styling, and a zip fly with button fastening.</p>
+                            <p>• Skinny fit<br>
+                            • Mid-rise waist<br>
+                            • Zip fly with button fastening<br>
+                            • Five-pocket styling<br>
+                            • MX1 distressing<br>
+                            • 98% cotton, 2% elastane</p>
+                        </div>
+                        <div class="size-selector">
+                            <p style="font-size: 20px; margin-bottom: 10px;">Select Size</p>
+                            <div class="size-options">
+                                <button class="size-btn">28</button>
+                                <button class="size-btn">30</button>
+                                <button class="size-btn selected">32</button>
+                                <button class="size-btn">34</button>
+                                <button class="size-btn">36</button>
+                            </div>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="js/main.js"></script>
+</body>
+</html>

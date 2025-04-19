@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}  
+
+body {
+    background-color: #fff;
+    overflow-x: hidden;
+}
+
+.header {
+    position: fixed;
+    background-color: #ffffff;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.logo img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+}
+
+.nav-container {
+    display: flex;
+    gap: 15px;
+}
+
+.nav-item {
+    transition: all 0.3s ease;
+    width: 37px;
+    height: 37px;
+}
+
+.nav-item:hover {
+    transform: translateY(-2px);
+}
+
+.nav-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.nav-icon img {
+    width: 25px;
+    height: 25px;
+    object-fit: contain;
+}
+
+
+
+.profile-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.profile-avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    font-size: 25px;
+    margin-right: 20px;
+    transition: all 0.3s ease;
+    cursor: default;
+}
+
+.profile-avatar:hover {
+    transform: scale(1.05);
+}
+
+.profile-name {
+    font-size: 22px;
+    margin-bottom: 5px;
+    cursor: default;
+}
+
+.section-title {
+    font-size: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+.order-card {
+    background-color: #fff;
+    color: #000;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 10px;
+    transition: all 0.3s ease;
+}
+
+.order-card:hover {
+    transform: translateY(-2px);
+}
+
+.order-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.order-date {
+    font-size: 12px;
+    opacity: 0.7;
+}
+
+.order-status {
+    font-size: 12px;
+    padding: 3px 8px;
+    border-radius: 10px;
+    background-color: #ccc;
+    color: #000;
+}
+
+.order-items {
+    font-size: 14px;
+    opacity: 0.9;
+}

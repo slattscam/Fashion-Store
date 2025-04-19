@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping card</title>
+    <link rel="stylesheet" href="css/shoppingCard.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div id="toast-notification" class="toast-notification">
+        <div class="toast-content">
+          <span class="toast-message"></span>
+        </div>
+    </div>
+    <div class="header">
+        <div class="logo">
+            <a href="index.html">
+                <img src="images/Flux_Dev_On_a_stark_white_background_a_stylized_graffiti_tag_i_1.jpg" alt="Logo">
+            </a>
+        </div>
+
+        <div class="nav-container">
+            <div class="nav-item">
+                <a href="profile.html" class="nav-icon">
+                    <img src="https://static.tildacdn.com/tild3161-6166-4863-b336-376436333631/Group_1948757779.svg" alt="Profile">
+                </a>
+            </div>
+
+            <div class="nav-item">
+                <a href="shoppingCard.html" class="nav-icon">
+                    <img src="https://static.tildacdn.com/tild6235-6530-4166-b535-646432303264/shopping-bag-_2__1.svg" alt="shopping-card">
+                </a>
+            </div>
+
+            <div class="nav-item">
+                <a href="FAQ.html" class="nav-icon">
+                    <img src="images/free-icon-question-3106703.png" alt="FAQ">
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="cart-container">
+        <h1 class="cart-title">Shopping Cart</h1>
+        
+        <div class="cart-content">
+            <div class="cart-items">
+                <!-- <div class="cart-item">
+                    <img src="https://cdn-images.farfetch-contents.com/28/55/01/62/28550162_57955151_480.jpg" alt="AMIRI MX1 Bouclé jeans" class="item-image">
+                    <div class="item-details">
+                        <div>
+                            <div class="item-header">
+                                <h3 class="item-title">MX1 Bouclé jeans</h3>
+                                <span class="item-price">$1,090</span>
+                            </div>
+                            <p class="item-brand">AMIRI</p>
+                        </div>
+                        <div class="item-actions">
+                            <div class="quantity-control">
+                                <button class="quantity-btn">-</button>
+                                <span class="quantity">1</span>
+                                <button class="quantity-btn">+</button>
+                            </div>
+                            <button class="remove-btn">
+                                <i class="fas fa-trash"></i> Remove
+                            </button>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+            
+            <div class="cart-summary">
+                <h2 class="summary-title">Order Summary</h2>
+                <div class="summary-row summary-total">
+                    <span>Total</span>
+                    <span class="total-sum"></span>
+                </div>
+                <button class="checkout-btn">Proceed to checkout</button>
+            </div>
+        </div>
+
+        <div class="empty-cart">
+            <i class="fas fa-shopping-cart empty-cart-icon"></i>
+            <p class="empty-cart-text">Shopping cart is empty</p>
+            <a href="index.html" class="continue-shopping">Continue shopping</a>
+        </div>
+    </div>
+    <script src="js/shoppingCard.js"></script>
+</body>
+</html>

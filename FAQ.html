@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ</title>
+    <link rel="stylesheet" href="css/FAQ.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            <a href="index.html">
+                <img src="images/Flux_Dev_On_a_stark_white_background_a_stylized_graffiti_tag_i_1.jpg" alt="Logo">
+            </a>
+        </div>
+
+        <div class="nav-container">
+            <div class="nav-item">
+                <a href="profile.html" class="nav-icon">
+                    <img src="https://static.tildacdn.com/tild3161-6166-4863-b336-376436333631/Group_1948757779.svg" alt="Profile">
+                </a>
+            </div>
+
+            <div class="nav-item">
+                <a href="shoppingCard.html" class="nav-icon">
+                    <img src="https://static.tildacdn.com/tild6235-6530-4166-b535-646432303264/shopping-bag-_2__1.svg" alt="Basket">
+                </a>
+            </div>
+
+            <div class="nav-item">
+                <a href="FAQ.html" class="nav-icon">
+                    <img src="images/free-icon-question-3106703.png" alt="FAQ">
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="support" style="margin: 100px 30px 0px;">
+        <p class="title">Support</p>
+                
+        <p class="section-title">Частые вопросы</p>
+        <!-- 1q -->
+        <div class="faq-item">
+            <div class="faq-question">
+                Как отследить заказ?
+                <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="faq-answer">
+                Вы можете отследить ваш заказ в разделе профиля, где отображаются все активные заказы с их текущим статусом.
+            </div>
+        </div>
+        <!-- 2q -->
+        <div class="faq-item">
+            <div class="faq-question">
+                Какие способы оплаты доступны?
+                <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="faq-answer">
+                Мы принимаем карты Visa, Mastercard, Мир, а также оплату через Apple Pay и Google Pay.
+            </div>
+        </div>
+        <!-- 3q -->
+        <div class="faq-item">
+            <div class="faq-question">
+                Как вернуть товар?
+                <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="faq-answer">
+                Для возврата товара свяжитесь с нашей поддержкой, и мы предоставим вам инструкции. Возврат возможен в течение 14 дней с момента получения заказа.
+            </div>
+        </div>
+        <!-- custom q -->
+        <div class="ticket-form">
+            <p class="section-title">Create a ticket</p>
+            <form id="support-form">
+                <div class="form-group">
+                    <label class="form-label" for="ticket-subject">Тема</label>
+                    <input type="text" id="ticket-subject" class="form-input" required>
+                </div>
+                <div class="form-group">
+                    <label class="form-label" for="ticket-message">Сообщение</label>
+                    <textarea id="ticket-message" class="form-textarea" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Send</button>
+                <div class="pass"></div>
+            </form>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
